@@ -1,3 +1,5 @@
+package TinkoffProgramExam
+
 object Test3 extends App{
   val value = scala.io.StdIn.readLine().toInt
   val list2 = scala.io.StdIn.readLine().split(" ").toList.map(_.toInt)

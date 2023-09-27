@@ -1,3 +1,5 @@
+package TinkoffProgramExam
+
 object Test4 extends App {
 
   case class ValueTree(value: Int, acc: Int, nextValue: Option[ValueTree]) {

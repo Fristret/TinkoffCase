@@ -1,3 +1,5 @@
+package TinkoffProgramExam
+
 object Test2 extends App{
   val value = scala.io.StdIn.readLine()
   val string1 = "sheriff"

@@ -1,3 +1,5 @@
+package TinkoffProgramExam
+
 import scala.annotation.tailrec
 import scala.util.Random
 

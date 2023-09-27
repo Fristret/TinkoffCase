@@ -1,3 +1,5 @@
+package TinkoffProgramExam
+
 import scala.util.Random
 
 case class Ghost(pos: Int, group: Int, prev: Int = 1)
@@ -10,6 +12,7 @@ sealed trait Question
 case class Question1(x: Int, y:Int) extends Question
 case class Question2(x: Int, y:Int) extends Question
 case class Question3(x: Int) extends Question
+
 object Question {
   def createQues(num: Int, n: Int, genY: Int => Int): Question = {
     num match

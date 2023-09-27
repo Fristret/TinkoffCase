@@ -1,3 +1,5 @@
+package TinkoffProgramExam
+
 object Test extends App{
   val value = scala.io.StdIn.readLine().split(" ").toList(1).toInt
   val price = scala.io.StdIn.readLine().split(" ").toList.map(_.toInt).sorted.reverse
